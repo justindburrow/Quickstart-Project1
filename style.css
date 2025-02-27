@@ -1,0 +1,48 @@
+/*header area*/
+.header-video, .header-logo {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 35vw;
+    min-width: 345px;
+    min-height: 95px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+    
+/*social media icons*/
+.social-icons {
+  
+   margin-right: 10px;
+}
+
+/*Bootstrap override for header*/
+.custom-navbar {
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    font-size: 1.5vw;
+    margin-right: 1rem;
+}
+
+/*increase font size of hamburger menu*/
+@media (max-width: 992px) {
+    .navbar-nav .nav-link{
+        font-size: 1.25rem;
+    }
+}
+
