@@ -17,16 +17,13 @@
     background-attachment: fixed;
 }
 
-
-
-    
 /*social media icons*/
 .social-icons {
   
-   margin-right: 10px;
+   margin: 5px, 5px, 5px, 5px;
 }
 
-/*Bootstrap override for header*/
+/*Bootstrap override for navbar*/
 .custom-navbar {
     background-color: white;
     border: none;
@@ -37,12 +34,40 @@
 .nav-link{
     font-size: 1.5vw;
     margin-right: 1rem;
+    padding:4px
 }
 
-/*increase font size of hamburger menu*/
+.nav-link:hover {
+    color: rgb(0, 151, 178);
+    border-color: rgb(0, 151, 178);
+    border: solid;
+    border-radius: 30px;
+}
+
+.nav-link:active{
+    color: white;
+    background-color: rgb(0, 151, 178);
+    border: solid;
+    border-color: rgb(0, 151, 178);
+    border-radius: 30px;
+    ;
+}
+
+/*Hamburger Menu*/
 @media (max-width: 992px) {
     .navbar-nav .nav-link{
         font-size: 1.25rem;
     }
 }
+
+.navbar-toggler {
+    border-color: black); /* Change the border color */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="black" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* Change the line color */
+    width: 30px;
+    height: 30px;
+}
+
 
