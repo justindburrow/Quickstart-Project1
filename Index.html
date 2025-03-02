@@ -48,7 +48,7 @@
 
 
 <main>
-    <div class="bg-image-index">
+    <div class="bg-image">
         <div class="shield">
             <div class="hero-container-1">
                 <h1 class="hero-title-1">Running a business is complicated.</h1>
@@ -148,21 +148,21 @@
                 <div class="d-flex flex-column align-items-center">
                 <h3 class="column-heading">Digital Advertising</h3>
                 <img class="w-100 service-img" src="./images/Digital-Advertising.png" alt="Digital Advertising."/>
-                <a href="about.html" class="btn btn-info">Tell Me More</a>
+                <a href="services.html" class="btn btn-info">Tell Me More</a>
                 </div>
             </section>
             <section class="col col-12 col-md-4">
                 <div class="d-flex flex-column align-items-center">
                 <h3 class="column-heading">Content Creation</h3>
                 <img class="w-100 service-img" src="./images/Content-Writing.png" alt="Content Creation"/>
-                <a href="about.html" class="btn btn-info">Tell Me More</a>
+                <a href="service.html" class="btn btn-info">Tell Me More</a>
                 </div>
             </section>
             <section class="col col-12 col-md-4">
                 <div class="d-flex flex-column align-items-center">
                 <h3 class="column-heading">Web Development</h3>
                 <img class="w-100 service-img" src="./images/Web-Development.png" alt="Web Development"/>
-                <a href="about.html" class="btn btn-info">Tell Me More</a>
+                <a href="services.html" class="btn btn-info">Tell Me More</a>
                 </div>
             </section>
             </section>
@@ -193,15 +193,17 @@
         document.addEventListener('DOMContentLoaded', function () {
             var navbarCollapse = document.getElementById('navbarNav');
             var heroContainer1 = document.querySelector('.hero-container-1');
-
+            var headerContainer = document.querySelector('.header-container');
+    
             navbarCollapse.addEventListener('show.bs.collapse', function () {
                 heroContainer1.classList.add('expanded');
+                headerContainer.classList.add('expanded');
             });
-
+    
             navbarCollapse.addEventListener('hide.bs.collapse', function () {
                 heroContainer1.classList.remove('expanded');
+                headerContainer.classList.remove('expanded');
             });
         });
-    </script>
-</body>
+    </script></body>
 </html>
