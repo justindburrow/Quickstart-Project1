@@ -2,6 +2,10 @@
 
 Justin Burrow
 
+https://github.com/justindburrow
+
+https://justindburrow.github.io/Quickstart-Project1/
+
 This is a sample business page for Simply Digital, a digital marketing firm.  This projec will be submitted for grading on Quickstart project 1.
 
 The pages can be navigated using the nav bar on top of each page
