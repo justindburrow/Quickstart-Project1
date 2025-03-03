@@ -533,7 +533,18 @@
     text-overflow:ellipsis;
     text-decoration: none;
     color:rgb(0, 151, 178);
-    
+}
+
+.contact-btn:visited {
+    font-size: calc(1rem + .6vw);
+    margin-right: 1rem;
+    padding:4px 12px 4px 12px;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    text-decoration: none;
+    color:rgb(0, 151, 178);
 }
 
 .contact-btn:hover {
@@ -610,6 +621,40 @@ h5{
     border-radius: 30px;
     box-shadow: 0 5px 10px rgba(0 ,0 ,0, 0.2);
     background-color: white;
+}
+
+.blog-image-container {
+    width: 70%;
+    margin:0px auto 0px auto;
+    padding-top:250px;
+    
+    }
+
+.blog-image-container.expanded {
+    padding-top: 400px
+}
+
+.img-blog{
+    width:100%;
+    height: auto;
+    border-radius: 30px;
+    opacity: 95%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.contact-blog {
+    text-decoration: none;
+    color:rgb(0, 151, 178);
+    
+}
+
+.contact-blog:hover {
+    color: rgb(0, 151, 178);
+   text-decoration: underline;
+}
+.contact-blog:visited{
+    text-decoration: none;
+    color:rgb(0, 151, 178);
 }
 
 
