@@ -351,7 +351,7 @@
 
   @media (max-width: 576px){
     .hero-container-1{
-        height: 200px;
+        height: 240px;
     }
     .hero-title-1, .hero-title-2{
         font-size: calc(2rem + 2vw);
