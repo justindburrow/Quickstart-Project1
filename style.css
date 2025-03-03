@@ -657,6 +657,19 @@ h5{
     color:rgb(0, 151, 178);
 }
 
+.blog-list{
+    list-style-type: none;
+}
+
+.blog-subheading{
+    color: rgb(0, 151, 178);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: calc(1.5rem + 1vw);
+    max-width: 90%;
+    margin: 15px auto 0 auto;
+    
+}
+
 
 
 
