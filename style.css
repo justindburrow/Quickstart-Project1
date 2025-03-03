@@ -154,8 +154,19 @@
     background-position: center;
 }
 
+.bg-image-mountain{
+    background-image: url(./images/mountain.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .shield{
     background-color: rgba(255, 255, 255, 0.8);   
+}
+
+.shield-mnt{
+    background-color: rgba(255, 255, 255, 0.5);   
 }
 
 .shield-blue{
@@ -515,13 +526,14 @@
   .contact-btn {
     font-size: calc(1rem + .6vw);
     margin-right: 1rem;
-    padding:4px;
+    padding:4px 12px 4px 12px;
     max-width: 180px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow:ellipsis;
     text-decoration: none;
-    color:rgb(0, 151, 178)
+    color:rgb(0, 151, 178);
+    
 }
 
 .contact-btn:hover {
@@ -546,8 +558,59 @@
     margin: 80px auto 50px auto;
 }
 
+.carousel{
+    width:80%;
+    margin:60px auto 0px auto;
+}
+
+.carousel-container{
+    padding-bottom: 100px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+h5{
+    color:white;
+    font-weight: 600;
+    font-size: 4vw;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.img-carousel{
+    background-color: black;
+    opacity: 90%;
+}
   
-  
+.blog-btn {
+    font-size: 2.25vw;
+    margin-right: 1rem;
+    padding:4px 12px 4px 12px;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0 ,0 ,0, 0.2);
+    border-radius: 30px;
+}
+
+.blog-btn:hover {
+    color: black;
+    border-color: black;
+    border: solid;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0 ,0 ,0, 0.2);
+    background-color: white;
+}
 
 
 
