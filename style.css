@@ -166,8 +166,8 @@
 
 @media (max-width:400px){
     .bg-image-mountain{
-        background-image: url(./images/mountainn-mobile.png);
-        background-size: cover;
+        background-image: url(./images/mountain-mobile.png);
+        background-size: 100%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
